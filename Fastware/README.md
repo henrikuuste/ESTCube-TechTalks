@@ -9,7 +9,10 @@
   - Complex compiler flags?
 - What is efficiency and how do we become more efficient?
 - What is performance and how do we perform better?
-
+- Why does data locality matter?
+- Do we optimize prematurely?
+- Do we pessimize prematurely?
+- Is eXtreme programming a good idea?
 
 We'll be going deep into hardware architecture and how it should affect your coding.
 As well as common efficiency issues and concepts in production code.
@@ -23,4 +26,4 @@ PS. Title stolen from Andrei Alexandrescu, who _stole_ it from Scott Meyers
 ## Organization
 
 No specific language knowledge is required, but software development experience helps a lot.
-
+Some code will be shown, but mostly pseudocode.
