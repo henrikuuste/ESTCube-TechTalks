@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>The Great Metaprogramming Conundrum</title>
+
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/league.css" id="theme">
+	<link rel="stylesheet" href="css/custom.css">
+
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="lib/css/zenburn.css">
+
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+	</script>
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section data-markdown="presentation.md" data-separator="^====+$" data-separator-vertical="^----+$" data-notes="^Note:">
+			</section>
+		</div>
+	</div>
+
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.js"></script>
+
+	<script>
+		// More info https://github.com/hakimel/reveal.js#configuration
+		Reveal.initialize({
+			slideNumber: 'c/t',
+			history: true,
+			transition: 'convex',
+
+			// More info https://github.com/hakimel/reveal.js#dependencies
+			dependencies: [
+				{ src: 'plugin/markdown/marked.js' },
+				{ src: 'plugin/markdown/markdown.js' },
+				{ src: 'plugin/notes/notes.js', async: true },
+				{ src: 'plugin/math/math.js', async: true },
+				{ src: 'plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } }
+			]
+		});
+	</script>
+
+	<!-- Additional javascript for drawing charts. -->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="http://code.highcharts.com/highcharts.js"></script>
+	<script type="text/javascript" src="http://code.highcharts.com/modules/data.js"></script>
+	<script type="text/javascript" src="http://code.highcharts.com/modules/exporting.js"></script>
+	<script type="text/javascript" src="js/chart.js"></script>
+	<script type="text/javascript">
+		window.onload = function () {
+			$(".benchmark-chart").each(function (index, div) {
+				var dataset = div.getAttribute("data-dataset");
+				$.getJSON("datasets/" + dataset, function (options) {
+					Hana.initChart($(div), options);
+				});
+			});
+		};
+	</script>
+
+	<!--
+		Some slides contain charts in them. Sometimes, the charts will not
+		be properly centered in the slide. To fix this, slides with the
+		`data-state="haschart"` attribute trigger a reflowing of all the
+		charts inside their div, which is overkill but fixes the problem.
+	-->
+	<script type="text/javascript">
+		Reveal.addEventListener('haschart', function () {
+			Highcharts.charts.forEach(function (chart) {
+				chart.reflow();
+			});
+		}, false);
+	</script>
+
+</body>
+
+</html>
