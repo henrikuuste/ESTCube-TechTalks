@@ -26,7 +26,7 @@ ESTCube team, 2017
 - <span style="color: #d95b43; font-weight:bold;">Crunch</span>
 - <span style="color: #e68a8a; font-weight:bold;">Low student retention and utilization</span>
 - <span style="color: #e68a8a; font-weight:bold;">Improper expert utilization</span>
-- <span style="color: #e68a8a; font-weight:bold;">Lack of experienced people on the active teams</span>
+teams</span>
 
 ----
 
@@ -76,10 +76,10 @@ ESTCube team, 2017
 
 =======================================
 
-## The big ones
+# The big ones
 
 ----
-### Lack of funding
+## Lack of funding
 
 - A crisis of __identity__
 - Discuss most likely options
@@ -97,6 +97,8 @@ ESTCube team, 2017
   - Hope for ESA projects that are not too difficult
   - Write a lot of proposals
 - Rely and the charity and interest of bright people
+  - `interesting` goals
+  - `fun` working environment
 
 ----
 ### Identity: Educational
@@ -127,7 +129,8 @@ ESTCube team, 2017
     - A few MEUR is fairly easy
   - Requires a `good idea`
   - Very good `marketing`
-  - Engineers able to deliver 50% of what marketing promised
+  - Full time engineers
+    - Deliver >50% of what marketing promised
     - `Competitive pay` with interesting goals
 
 ----
@@ -161,8 +164,11 @@ ESTCube team, 2017
 - Experts not working on things they actually have expertise in
   - Assigned to other tasks
   - Experts working on things "they would like to learn"
+- Fragmentation of responsibilities
 - Babysitting
 - Burning out (more on that later)
+- Not enough experts to cover all teams
+- Expert advice is discarded
 
 ----
 
@@ -198,13 +204,24 @@ ESTCube team, 2017
 
 ### Core people are irreplaceable
 
-----
-
-### Lack of experienced people on the active teams
+- Limited sharing of knowledge
+- High disparity between skill sets and levels
+- Leaving is a very hard decision
+- Duplication of responsibilities
+  - Lack of time and resources
+- In-depth reviews would help
 
 ----
 
 ### Too many secondary projects and responsibilities
+
+- All the proposals!
+  - Hope none of them get accepted...
+- Funding has to come from somewhere
+- Pointless courses at school
+- Supervising/mentoring with no reward
+- Writing articles about nothing
+- Hey! Want to make a start-up?
 
 ----
 
@@ -228,10 +245,23 @@ ESTCube team, 2017
 
 ### Crappy initial design reviews
 
+- Not enough time allocated for preliminary design
+- No structured discussions with the core team
+- Leads to huge issues later in the project
+
 ----
 
 ### Lack of basic equipment in the labs
 
+- Nuts, bolts, cleaning supplies, connectors, cables, ...
+- Covering costs can be difficult
+- Allocate regular funds for this purpose
+- Assign people to deal with acquisition and organization
+
 ----
 
 ### Over-engineering
+
+- Lack of experience and knowledge
+- The "cool" factor
+- Re-inventing the wheel, fire, spoken and written language
