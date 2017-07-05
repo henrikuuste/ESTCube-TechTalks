@@ -6,11 +6,12 @@ ESTCube team, 2017
 
 ### Organization
 
-- Quick overview of the issues we thought of
-- Gather additional issues from the attendees
-- Highlight the largest issues
-- Discuss the issues one by one in order of priority
-  - Try to find some solutions
+- Quick `overview` of the issues we thought of
+- Gather `additional issues` from the attendees
+- Highlight the `largest issues`
+- `Discuss` the issues one by one in order of priority
+  - Try to find some `solutions`
+- **Profit**
 
 =======================================
 
@@ -20,9 +21,9 @@ ESTCube team, 2017
 
 ### Management
 
-- <span style="color: #d95b43; font-weight:bold;">No dedicated project management</span>
-- <span style="color: #d95b43; font-weight:bold;">Crunch</span>
+- <span style="color: #d95b43; font-weight:bold;">No dedicated **project managers**</span>
 - <span style="color: #d95b43; font-weight:bold;">Core people are irreplaceable</span>
+- <span style="color: #d95b43; font-weight:bold;">Crunch</span>
 - <span style="color: #e68a8a; font-weight:bold;">Low student retention and utilization</span>
 - <span style="color: #e68a8a; font-weight:bold;">Improper expert utilization</span>
 - <span style="color: #e68a8a; font-weight:bold;">Lack of experienced people on the active teams</span>
@@ -78,53 +79,120 @@ ESTCube team, 2017
 ## The big ones
 
 ----
-
 ### Lack of funding
 
 - A crisis of __identity__
-  - Educational?
-  - Scientific?
-  - Business?
-- Define long term goals
-- Discuss the possibility of investments
+- Discuss most likely options
+- Define `long term goals`
 
 ----
 
+### Identity: Volunteer organization
+
+- Beg for money (a lot of active fundraising people)
+  - Generous donors
+  - Sponsorships
+  - Crowd sourcing
+- Appropriate assets from other projects
+  - Hope for ESA projects that are not too difficult
+  - Write a lot of proposals
+- Rely and the charity and interest of bright people
+
+----
+### Identity: Educational
+
+  - Tight collaboration with universities
+  - `Paid` teachers and supervisors
+  - Mandatory courses that students can `fail`
+  - Funding for tools and classes
+  - Simple (low novelty and engineering complexity) goals
+  - Long and uncertain deadlines
+
+----
+### Identity: Scientific
+
+  - `Novel` ideas and `high scientific complexity`
+  - Scientific funding
+    - More `PhDs` and academic personnel
+    - Writing lots of `papers` (extra time)
+    - Attending lots of `conferences` (extra time and money)
+  - Uncertain results
+  - Longish deadlines
+  - Low expert retention
+
+----
+### Identity: Business
+
+  - Investments and ROI
+    - A few MEUR is fairly easy
+  - Requires a `good idea`
+  - Very good `marketing`
+  - Engineers able to deliver 50% of what marketing promised
+    - `Competitive pay` with interesting goals
+
+----
 ### No dedicated project management
 
-- Day-to-day organization is a __full time job__
-  - Active
-  - Always available
-- Needed per project, but ESTCube is large
-- Common tasks:
-  - Identify project wide issues
+- Day-to-day organization is a `full time job`
+  - `Active` and `always available`
+- ESTCube is large - multiple people
+- **Common tasks:**
+  - Task management and identification of project wide issues
   - Dealing with external parties
   - Write and review documentation
   - Project plan, budget, schedule and risk analysis
-  - Babysitting "difficult" members
+  - Babysitting *"difficult"* members
 
 ----
 
 ### Low student retention and utilization
 
-- Stipends do not always work. The reward has to be related to effort.
+- Stipends do not always work. The __reward__ has to be __proportional to effort__.
 - EAP as a reward
-- Required courses?
+- Required courses that students can fail
+- Interesting tasks with active supervision
+  - Investment into students should be chosen carefully
 - Experts are "too professional"?
-- Investment into students should be chosen carefully
 
 ----
 
 ### Improper expert utilization
 
+- Experts not working on things they actually have expertise in
+  - Assigned to other tasks
+  - Experts working on things "they would like to learn"
+- Babysitting
+- Burning out (more on that later)
 
 ----
 
 ### No comfortable colocation space
 
+- Problems with TO
+  - Commute time and availability
+    - Huge issue for people with jobs or school
+    - Equipment transport
+  - Restricted access
+  - Space in the labs
+  - Too many public events
+- Problems with Physicum
+  - Space is too small with a bad layout
+  - It's a mess and not presentable
+  - Lack of equipment
+
 ----
 
 ### Crunch
+
+- **Overtime always causes a loss of time later on**
+- Tasks are not completed by the majority
+  - Fall to the responsible minority
+- The "we have plenty of time" and "last minute" mindset
+- Vacations are always cut short or skipped
+- Can not assign critical tasks to people who might not finish them
+  - How many non-critical tasks do we have?
+- Tight task management
+- Proper sprints
 
 ----
 
@@ -141,6 +209,11 @@ ESTCube team, 2017
 ----
 
 ### Lack of systematic testing
+
+- No separate testers
+- No frameworks or infrastructure
+- No profiling or benchmarking
+- Lack of time
 
 ----
 
